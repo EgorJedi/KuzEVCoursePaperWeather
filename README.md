@@ -1,4 +1,4 @@
-# Egor_Weather
+# Weather
 
 ## _Android Weather App_
 
