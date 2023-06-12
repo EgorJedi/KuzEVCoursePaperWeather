@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="8dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/city_name"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/city_url"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textStyle="italic"
+                android:layout_below="@id/city_name"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/edit_city"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/image_description"
+            android:src="@mipmap/ic_edit_foreground" />
+
+        <ImageView
+            android:id="@+id/delete_city"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:src="@mipmap/ic_delete_foreground"
+            android:contentDescription="@string/image_description"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

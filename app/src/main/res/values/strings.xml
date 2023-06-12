@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">KuzEV Course Paper Weather</string>
+    <string name="about_app">О приложении</string>
+    <string name="about_author">Об авторе</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Список городов</string>
+    <string name="second_fragment_label">Погода</string>
+    <string name="next">Дальше</string>
+    <string name="previous">Назад</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet</string>
+    <string name="weather_condition_image">Weather Condition Image</string>
+    <string name="enter_city">Введите город</string>
+    <string name="search_title">Поиск</string>
+    <string name="image_description">Редактирование/удаление города</string>
+    <string name="enter_country_city">Введите страну/город (ENG)</string>
+    <string name="cities_list">Список городов</string>
+    <string name="day_title">Прогноз на день</string>
+    <string name="forecast_title">Прогноз на 3 дня</string>
+</resources>
